@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,900&display=swap');
+
+:root {
+--amarillo: #EAC926;
+--Azul: #03264C;
+--Celeste: #1259c3;
+--Gris-oscuro: #666;
+--Gris-claro: #ebebeb;
+--Verde: #39b54a;
+
+--fuente: 'Roboto', sans-serif;
+}
+
+
+
+/* HEADER */
+
+
+.header ul {
+    list-style: none;
+    padding: 0;
+}
+.header a {
+    color: black;
+    text-decoration: none;
+}
+.header {
+    background-color: var(--amarillo);
+}
+
+.header--banner {
+    padding-left: 2rem;
+    padding-top: 2rem;
+    width: 50%;
+}
+
+.buscador {
+    padding-left: 2rem;
+    margin-top: 2rem;
+
+}
+
+.buscador--input {
+    display: block;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    width: 60%;
+}
+
+.buscador--btn {
+    margin-left: 2rem;
+    height: 2rem;
+    width: 2rem;
+}
+
+.buscador--btn i {
+    font-size: 1rem;
+}
+
+.contenedor-cuotas {
+    text-align: center;
+}
+.header--parrafo {
+    display: inline-block;
+}
+
+.bars {
+    text-align: center;
+    padding: 2rem;
+}
+
+.fa-bars {
+    padding: 0.8rem;
+    font-size: 1.5rem;
+    color: var(--Gris-claro);
+    background-color: var(--Celeste);
+    border-radius: 5px;
+}
+
+
+
+
+
+/* MAIN */
+
+.main--titulo {
+    font-size: 24px;
+    font-family: var(--fuente);
+    font-weight: 12px;
+}
+main section article {
+    padding: 1rem;
+}
+main section img {
+    width: 100%;
+    font-family: var(--fuente);
+}
+
+main section .precio {
+    font-size: 18px;
+    font-family: var(--fuente);
+}
+
+main section .descuento {
+    font-size: 16px;
+    font-family: var(--fuente);
+}
+
+main section .descripcion {
+    font-size: 16px;
+    font-family: var(--fuente);
+}
+
+
+
+
+
+
+/* FOOTER */
+
+
+footer {
+    padding: 3rem 2rem 1rem 2rem;
+    text-align: center;
+}
+.footer--article {
+    margin-bottom: 3rem;
+}
+
+.contenedor--icono {
+}
+
+.footer--icono {
+    color: var(--Celeste);
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.footer--titulo {
+    margin: 0;
+    font-family: var(--fuente);
+}
+
+.footer--parrafo {
+    margin: 0;
+    font-family: var(--fuente);
+}
